@@ -3,6 +3,8 @@
         android:label="cab_booking_user"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+         <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyAXUpwUaQZGCDSmn2ba5NtZIUsM2ts014w"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
